@@ -2,13 +2,16 @@
 
 # Create a vector `names` that contains your name and the names of 2 people 
 # next to you. Print the vector.
+names <- c("Marquis", "Amelia", "Judah")
+print(names)
 
 
 # Use the colon operator : to create a vector `n` of numbers from 10:49
+n <- c(10:49)
 
 
 # Use the `length()` function to get the number of elements in `n`
-
+length(n)
 
 # Add 1 to each element in `n` and print the result
 
@@ -22,10 +25,12 @@
 
 # Use the `seq()` function to produce a range of numbers from -5 to 10 in `0.1`
 # increments. Store it in a variable `x_range`
-
+x_range <- seq(-5,10,.1)
+x_range
 
 # Create a vector `sin_wave` by calling the `sin()` function on each element 
 # in `x_range`.
+
 
 
 # Create a vector `cos_wave` by calling the `cos()` function on each element 

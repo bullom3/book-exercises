@@ -1,12 +1,13 @@
 # Exercise 1: practice with basic R syntax
 
 # Create a variable `hometown` that stores the city in which you were born
-
+hometown <- "Seattle Wa"
 
 # Assign your name to the variable `my_name`
-
+my_name <- "Marquis Bullock"
 
 # Assign your height (in inches) to a variable `my_height`
+my_height <- 72 
 
 
 # Create a variable `puppies` equal to the number of puppies you'd like to have
