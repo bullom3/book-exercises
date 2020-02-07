@@ -6,6 +6,24 @@
 # factors!
 grants <- read.csv('data/gates_money.csv', stringsAsFactors = FALSE)
 
+suvival <- male_filter[male_filter$Survived ==  "Yes", ]
+sum(suvival$Freq)
+
+suvival
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 # Use the View function to look at the loaded data
