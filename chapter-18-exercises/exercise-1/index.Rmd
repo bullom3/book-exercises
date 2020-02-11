@@ -1,0 +1,15 @@
+---
+title: "R Markdown Demo"
+author: "MGB"
+date: "2/11/2020"
+output: html_document
+---
+##This is my report!
+
+I like writing **reports** 
+
+```{r example, echo=FALSE}
+numbers <- runif(1:100)
+hist(numbers)
+
+````
